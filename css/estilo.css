@@ -1,0 +1,60 @@
+body{
+    font-family: sans-serif;
+    margin: 0; 
+  
+}
+div{
+    padding: 15px;
+}
+.logo { text-align: left;
+display: flex;
+}
+nav a{
+    color: black;
+    font-weight: 600;
+    padding-right: 10px;
+}
+header a{
+    font-size: 20px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 10px;
+}
+.navbar{
+    background-color: #4fa8fb;
+    color: white;
+}
+#formulario{
+    background-color: #ff7dd8;
+    border-radius: 10px;
+    padding:30px;
+}
+.galeria2{
+    display: flex;
+    overflow-y: auto;
+    padding: 16px;
+
+}
+.card{
+    margin-right: 10px;
+    position: relative;
+}
+.cuerpo-card{
+    position:absolute;
+    bottom: 0;
+    padding: 10px;
+    background-color: rgba(0, 0, 0, 4);
+    color: #fff;
+}
+.cuerpo-card h5, .cuerpo-card p{
+    margin: 0px;
+
+}
+.card img{
+    width:290px;
+    object-fit: cover;
+    height:300px;
+
+}
+
